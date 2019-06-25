@@ -23,7 +23,7 @@ entry = Entry(frame)
 def dialog():
     box.showinfo('Open', 'Shit '+entry.get()+' you so DEAD')
 
-btn = Button(frame, text = "Click Me", command = dialog)
+btn = Button(frame, text = "Click to get Shit", command = dialog)
 
 '''
 label.pack(side = LEFT)

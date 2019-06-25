@@ -8,8 +8,21 @@ frame = Frame(window)
 listbox = Listbox(frame)
 
 listbox.insert(1, 'Avinash')
-listbox.insert(1, 'Suraj')
-listbox.insert(1, 'Janak')
+listbox.insert(2, 'Suraj')
+listbox.insert(3, 'Janak')
 
-def.dialog():
-    
+def masted():
+    try:
+        messagebox.showinfo('Mast AADMI', 'Congratulations '+listbox.get(listbox.curselection())+' tu MAST hai')
+    except:
+        messagebox.showerror('Mast AADMI', 'You selected nobody you are Not mast')
+#showerror, showwarning, askquestion, askokcancel, askyeno,askretrycancel are the several dialog boxes that
+#can be used
+
+button = Button(frame, text = "Mast", command = masted)
+
+listbox.pack()
+button.pack(pady = 10)
+frame.pack(padx = 40, pady = 20)
+
+window.mainloop()
