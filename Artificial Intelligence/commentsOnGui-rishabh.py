@@ -16,7 +16,7 @@ frame = Frame(window)
 #we make an object similar to a TextView
 label = Label(frame, text = "Give me an Object")
 
-#setting the frame to the entry variable through the Entry constructor
+#setting the frame to the entry variable through the Entry constructor like a EditText
 entry = Entry(frame)
 
 #
