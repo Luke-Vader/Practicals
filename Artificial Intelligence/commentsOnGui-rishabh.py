@@ -10,13 +10,18 @@ window = Tk()
 #START is the window title now
 window.title("START")
 
+#we make a frame thingy which is inflated into the window
 frame = Frame(window)
 
+#we make an object similar to a TextView
 label = Label(frame, text = "Give me an Object")
+
+#setting the frame to the entry variable through the Entry constructor
 entry = Entry(frame)
 
+#
 def dialog():
-    box.showinfo('Open', 'Shit '+entry.get())
+    box.showinfo('Open', 'Shit '+entry.get()+' you so DEAD')
 
 btn = Button(frame, text = "Click Me", command = dialog)
 
