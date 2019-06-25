@@ -2,7 +2,7 @@ from tkinter import*
 import tkinter.messagebox as messagebox
 
 window = Tk()
-window.title('ListBox')
+window.title('Mast Aadmi Selector')
 
 frame = Frame(window)
 listbox = Listbox(frame)
@@ -23,6 +23,6 @@ button = Button(frame, text = "Mast", command = masted)
 
 listbox.pack()
 button.pack(pady = 10)
-frame.pack(padx = 40, pady = 20)
+frame.pack(padx = 100, pady = 20)
 
 window.mainloop()
