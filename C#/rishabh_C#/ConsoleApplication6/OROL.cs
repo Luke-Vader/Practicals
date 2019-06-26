@@ -15,7 +15,7 @@ namespace ConsoleApplication6
 
     class D : C
     {
-        public override void Test()
+        public new virtual void Test()
         {
             Console.WriteLine("D:Test()");
         }
