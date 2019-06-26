@@ -5,27 +5,27 @@ using System.Text;
 
 namespace ConsoleApplication6
 {
-    class A
+    class C
     {
         public virtual void Test()
         {
-            Console.WriteLine("A:Test()");
-        }
-    }
-
-    class B : A
-    {
-        public override void Test()
-        {
-            Console.WriteLine("B:Test()");
-        }
-    }
-
-    class C : B
-    {
-        public override void Test()
-        {
             Console.WriteLine("C:Test()");
+        }
+    }
+
+    class D : C
+    {
+        public override void Test()
+        {
+            Console.WriteLine("D:Test()");
+        }
+    }
+
+    class E : D
+    {
+        public override void Test()
+        {
+            Console.WriteLine("E:Test()");
         }
     }
 
@@ -33,7 +33,8 @@ namespace ConsoleApplication6
     {
         static void Main(string[] s)
         {
-
+            C c = new E();
+            c.Test();
             Console.ReadKey();
         }
     }
