@@ -29,11 +29,19 @@ namespace ConsoleApplication6
         }
     }
 
+    class F : E
+    {
+        public override void Test()
+        {
+            Console.WriteLine("F:Test()");
+        }
+    }
+
     class OROL : C
     {
         static void Main(string[] s)
         {
-            C c = new E();
+            C c = new F();
             c.Test();
             Console.ReadKey();
         }
