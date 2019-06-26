@@ -5,3 +5,6 @@ C:\Users\windows\Documents\Visual Studio 2008\Projects\ConsoleApplication6\Conso
 C:\Users\windows\Documents\Visual Studio 2008\Projects\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
 C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
 C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\Debug\ResolveAssemblyReference.cache

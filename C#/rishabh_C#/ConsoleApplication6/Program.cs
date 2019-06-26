@@ -5,8 +5,10 @@ using System.Text;
 
 namespace ConsoleApplication6
 {
-    class A {
-        public A() : this("welcome") {
+    class A 
+    {
+        public A() : this("welcome")
+        {
             Console.WriteLine("in A()");
         }
 
@@ -44,7 +46,6 @@ namespace ConsoleApplication6
         static void Main(string[] args)
         {
             Program program = new Program();
-
             Console.ReadKey();
         }
     }
