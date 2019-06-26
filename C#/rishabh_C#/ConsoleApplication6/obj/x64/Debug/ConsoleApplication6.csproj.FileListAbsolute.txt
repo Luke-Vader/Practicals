@@ -1,0 +1,5 @@
+C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\x64\Debug\ConsoleApplication6.exe
+C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\x64\Debug\ConsoleApplication6.pdb
+C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ConsoleApplication6.exe
+C:\Users\windows\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ConsoleApplication6.pdb
