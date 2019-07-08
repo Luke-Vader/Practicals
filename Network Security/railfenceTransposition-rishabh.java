@@ -60,8 +60,8 @@ public class World {
 		c = Math.ceil(((double)cipher.length())/depth);
 		char arr[][] = new char[depth][(int) c];
 		
-		for (int i = 0; i < c; i++) {
-			for (int j = 0; j < depth; j++) {
+		for (int i = 0; i < depth; i++) {
+			for (int j = 0; j < c; j++) {
 				arr[i][j] = cipher.charAt(k);
 				k++;
 			}
