@@ -1,0 +1,20 @@
+# import random module
+import random
+
+# ----------------------------------------------
+# print("Hello, write")
+score = 0
+f=open("jbfile.txt","w+")
+
+for i in range(5):
+     score=score +1
+     # f.write("This is line %d\r\n" % (i+1))
+     f.write("score is  %d\r\n" %score )
+     print(score)
+
+
+
+f=open("jbfile.txt","r")
+if f.mode == "r":
+    contents=f.read()
+    print(contents)
