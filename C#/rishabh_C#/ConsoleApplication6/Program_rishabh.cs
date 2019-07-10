@@ -31,21 +31,21 @@ namespace ConsoleApplication6
         }
     }
 
-    class Program : B
+    class Program_rishabh : B
     {
-        Program(string s)
+        Program_rishabh(string s)
         {
             Console.WriteLine("inside Program(string)");
         }
 
-        Program()
+        Program_rishabh()
         {
             Console.WriteLine("inside Program()");        
         }
 
         static void Main(string[] args)
         {
-            Program program = new Program();
+            Program_rishabh program = new Program_rishabh();
             Console.ReadKey();
         }
     }

@@ -12,7 +12,7 @@
     <AssemblyName>ConsoleApplication6</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>ConsoleApplication6.Multiply</StartupObject>
+    <StartupObject>ConsoleApplication6.BasicLambda_rishabh</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,9 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Multiply.cs" />
-    <Compile Include="OROL.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Add_janak.cs" />
+    <Compile Include="BasicLambda_rishabh.cs" />
+    <Compile Include="matrixMultiplication_janak.cs" />
+    <Compile Include="Multiply_rishabh.cs" />
+    <Compile Include="OROL_rishabh.cs" />
+    <Compile Include="Program_rishabh.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

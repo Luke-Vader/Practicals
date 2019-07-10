@@ -37,7 +37,7 @@ namespace ConsoleApplication6
         }
     }
 
-    class OROL : C
+    class OROL_rishabh : C
     {
         static void Main(string[] s)
         {

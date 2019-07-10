@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleApplication6
 {
-    class Multiply
+    class Multiply_rishabh
     {
         static void Main(string[] args)
         {
@@ -15,7 +15,7 @@ namespace ConsoleApplication6
 
             for (int i = 1; i <= 10; ++i)
             {
-                Console.WriteLine("{0} x {1} = {2}", s, i, n * i);
+                Console.WriteLine("{0} x {1} = {2}", n, i, n * i);
             }
 
             Console.ReadKey();
