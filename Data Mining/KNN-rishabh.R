@@ -16,3 +16,5 @@ predict(model,t)
 model = naiveBayes(class~., data = TData)
 t = data.frame(Sepal.Length = 5.9, Sepal.Width = 3.0, Petal.Length = 5.1, Petal.Width = 1.8)
 predict(model,t)
+
+model = knn(Training_data[,-5],Test_data[,-5],Training_data[,5],k=9)
