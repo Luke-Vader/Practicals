@@ -1,3 +1,6 @@
+In regression  we will find the relation between an independent and a dependent variable
+byx means y is dependent on x. You know the formula
+
 a = iris[1:5,]
 b = iris[51:55,]
 c = iris[101:104,]
