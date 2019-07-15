@@ -8,7 +8,6 @@ public class World {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int r;
-		double c;
 		String plainText;
 		System.out.println("Enter Depth: ");
 		r = sc.nextInt();
