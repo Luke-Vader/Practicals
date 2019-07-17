@@ -45,7 +45,8 @@ namespace ConsoleApplication6
             Console.WriteLine("Max Salary: " + m1.ToString());
 
             List<Emp> yy = list.Where(x => x.sal == m1).ToList();
-            
+
+            Console.WriteLine(yy.First().name);
 
         }
 
