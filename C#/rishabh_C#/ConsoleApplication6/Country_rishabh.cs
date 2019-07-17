@@ -11,8 +11,8 @@ namespace ConsoleApplication6
         {
             string[] country = { "USA", "UK", "Russia", "India" };
             int max = country.Max(x => x.Length);
-            string maxCountry = country.Where(x => x.Length == max).Take();
-            Console.WriteLine("Max Country: " + maxCountry);
+            //string maxCountry = (country.Where(x => x.Length == max)).ToList();
+            //Console.WriteLine("Max Country: " + maxCountry);
             Console.ReadKey();
 
         }
