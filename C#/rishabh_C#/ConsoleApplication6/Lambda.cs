@@ -48,7 +48,21 @@ namespace ConsoleApplication6
 
             Console.WriteLine(yy.First().name);
 
+            var nameCollection = list.Select( y => y.name);
+            var salarycollection = list.Select(x => x.sal>40000);
+            var salnewcoll = list.Select(x => new{name = x.name, first = x.name});
+            var max
+
+
         }
 
     }
 }
+
+/*
+Find the most gareeb employe
+Find the name of employees working for IT department.
+Find the name of CEO.
+Find the sum of all the salaries of employee working for sales department.
+Find the average salary of employees working in IT department.
+ */
