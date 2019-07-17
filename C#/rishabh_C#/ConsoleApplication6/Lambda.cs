@@ -5,26 +5,9 @@ using System.Text;
 
 namespace ConsoleApplication6
 {
-    class Emp {
 
-        public string name{get; set;}
-        public int sal{get; set;}
-        public string desig{get; set;}
-        public string dept{get; set;}
-
-        public Emp(string name, int sal, string desig, string dept) {
-
-            this.name = name;
-            this.sal =  sal;
-            this.desig = desig;
-            this.dept = dept;
-
-        }
-
-    }
-
-
-    class Lambda{
+    class Lambda
+    {
 
         static void Main(stirng[] args) {
 
@@ -51,12 +34,41 @@ namespace ConsoleApplication6
             var nameCollection = list.Select( y => y.name);
             var salarycollection = list.Select(x => x.sal>40000);
             var salnewcoll = list.Select(x => new{name = x.name, first = x.name});
-            var max
+            var max = list.Max(x => x.sal);
+            Console.WriteLine("Max is {0}", max);
+            List<Emp> hsal = list.Where(x => x.sal > 40000).ToList();
+            var msal = hsal.Select(z => new {name = z.name, sal = z.sal});
+            foreach (var m in msal)
+            {
+                Console.WriteLine(" " + m);
+            }
 
+            Console.ReadKey();
+            
+        }
+
+    }
+
+    class Emp
+    {
+
+        public string name { get; set; }
+        public int sal { get; set; }
+        public string desig { get; set; }
+        public string dept { get; set; }
+
+        public Emp(string name, int sal, string desig, string dept)
+        {
+
+            this.name = name;
+            this.sal = sal;
+            this.desig = desig;
+            this.dept = dept;
 
         }
 
     }
+
 }
 
 /*

@@ -12,7 +12,7 @@
     <AssemblyName>ConsoleApplication6</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>ConsoleApplication6.Country_rishabh</StartupObject>
+    <StartupObject>ConsoleApplication6.matrixMultiplication_janak</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +58,7 @@
     <Compile Include="BasicLambda_rishabh.cs" />
     <Compile Include="Country_rishabh.cs" />
     <Compile Include="DistinctDemo_rishabh.cs" />
+    <Compile Include="Lambda.cs" />
     <Compile Include="matrixMultiplication_janak.cs" />
     <Compile Include="Multiply_rishabh.cs" />
     <Compile Include="OROL_rishabh.cs" />
