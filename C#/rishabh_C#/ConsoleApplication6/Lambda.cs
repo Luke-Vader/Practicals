@@ -18,10 +18,10 @@ namespace ConsoleApplication6
 
             List<Emp> list = new List<Emp>();
 
-            list.add(e1);
-            list.add(e2);
-            list.add(e3);
-            list.add(e4);
+            list.Add(e1);
+            list.Add(e2);
+            list.Add(e3);
+            list.Add(e4);
 
             var m1 = list.Max(x => x.sal);
 
