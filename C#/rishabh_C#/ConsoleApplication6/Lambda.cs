@@ -16,7 +16,7 @@ namespace ConsoleApplication6
             Emp e3 = new Emp("Rajesh", 50000, "CGM", "Marketing");
             Emp e4 = new Emp("Laxman", 70000, "CEO", "IT");            
 
-            List<Emp> list = new List<>();
+            List<Emp> list = new List<Emp>();
 
             list.add(e1);
             list.add(e2);
@@ -72,7 +72,7 @@ namespace ConsoleApplication6
 }
 
 /*
-Find the most gareeb employe
+Find the most gareeb employee
 Find the name of employees working for IT department.
 Find the name of CEO.
 Find the sum of all the salaries of employee working for sales department.
