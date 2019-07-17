@@ -9,7 +9,7 @@ namespace ConsoleApplication6
     class Lambda
     {
 
-        static void Main(stirng[] args) {
+        static void Main(string[] args) {
 
             Emp e1 = new Emp("John", 40000, "CEO", "IT");
             Emp e2 = new Emp("Sam", 30000, "GM", "IT");
