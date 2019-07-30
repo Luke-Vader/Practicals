@@ -5,4 +5,4 @@ myDat, labels = createDataSet()
 myTree = createTree(myDat, labels)
 print(mytree)
 
-print("WTF is happenning")
+print(" is happenning")
