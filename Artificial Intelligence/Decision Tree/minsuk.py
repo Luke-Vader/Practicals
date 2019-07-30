@@ -46,7 +46,7 @@ def splitDataSet(dataSet, axis, value):
 def chooseBestFeatureToSplit(dataSet):
     numFeatures = len(dataSet[0]) - 1  # the last column is used for the labels
     baseEntropy = calcShannonEnt(dataSet)
-    bestInfoGain = 0.0;
+    bestInfoGain = 0.0
     bestFeature = -1
     for i in range(numFeatures):  # iterate over all the features
         featList = [example[i] for example in dataSet]  # create a list of all the examples of this feature
@@ -56,7 +56,6 @@ def chooseBestFeatureToSplit(dataSet):
             subDataSet = splitDataSet(dataSet, i, value)
             prob = len(subDataSet) / float(len(dataSet))
             newEntropy += prob * calcShannonEnt(subDataSet)
-
 
         infoGain = baseEntropy - newEntropy  # calculate the info gain; ie reduction in entropy
         """
