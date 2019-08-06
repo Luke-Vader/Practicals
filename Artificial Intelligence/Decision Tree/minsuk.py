@@ -21,10 +21,13 @@ def createDataSet():
 
 def calcShannonEnt(dataSet):
     numEntries = len(dataSet)
+    #labelCounts is a dictionary
     labelCounts = {}
-    for featVec in dataSet:  # the the number of unique elements and their occurance
-        currentLabel = featVec[-1]
-        if currentLabel not in labelCounts.keys(): labelCounts[currentLabel] = 0
+    #featVec is feature Vector which differentiates what kind of shit lies around
+    for featVec in dataSet:  #The number of unique elements and their occurance
+        currentLabel = featVec[-1]      #we take the yes or no in the currentLabel variable
+        if currentLabel not in labelCounts.keys(): 
+            labelCounts[currentLabel] = 0
         labelCounts[currentLabel] += 1
     shannonEnt = 0.0
     for key in labelCounts:
