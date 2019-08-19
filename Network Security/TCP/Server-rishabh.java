@@ -12,12 +12,14 @@ public class Server {
             BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter pw = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
             String number = br.readLine();
+            //String output = number + " from Server";
             int output = Integer.parseInt(number);
-            pw.println(output);
-            pw.flush();
+            pw.print(output);
+            pw.flush(); 
             
         } catch(Exception e) {
         	e.printStackTrace();
+        	System.out.println("Connection Failed");
         	
         }
 
