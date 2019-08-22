@@ -1,0 +1,7 @@
+library(cluster)
+library(stats)
+library(sparcl)
+df<-read.csv('amazeData.csv')
+d <- as.dist(df)
+hc1 <- hclust(d, method = "complete" )
+plot(hc1)
