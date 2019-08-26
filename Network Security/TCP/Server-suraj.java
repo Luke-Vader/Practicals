@@ -1,58 +1,50 @@
-
-
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-
-
-public class Server {	
-	 static int max(int n ,int m) 
-	    { 
-		    int maxx;
-		    if(n>m){
-		    	maxx=n;
-		    }
-		    else
-		    	maxx=m;
-	        return maxx;
-	    } 
+	import java.net.ServerSocket;
+	import java.net.Socket;
+	import java.io.BufferedReader;
+	import java.io.IOException;
+	import java.io.InputStreamReader;
+	import java.io.OutputStreamWriter;
+	import java.io.PrintWriter;
 	
-	public static void main(String[] args) {
+	
+	public class TeeCeePeeServer {	
+		 static int max(int n ,int m) 
+		    { 
+			    int maxx;
+			    if(n>m){
+			    	maxx=n;
+			    }
+			    else
+			    	maxx=m;
+		        return maxx;
+		    } 
 		
-		// TODO Auto-generated method stub
-		try {
-			ServerSocket ss=new ServerSocket(4500);
-			System.out.println("Server started!!");
+		public static void main(String[] args) {
 			
-			System.out.println("waiting for client...");
+			try {
+				ServerSocket ss=new ServerSocket(4500);
+				System.out.println("Server started!!");	
+				System.out.println("waiting for client...");
+				Socket s = ss.accept();
+				System.out.println("Client accepted");			
+				BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
+				
+				PrintWriter pw = new PrintWriter(new OutputStreamWriter(s.getOutputStream()));
+				
+				 String num = br.readLine();
+				 String num2 = br.readLine();
+				 
+				 int num1 = Integer.parseInt(num);
+				 int nm2 = Integer.parseInt(num2);
+				 
+				 String output = Integer.toString(max(num1,nm2));
+				 pw.println(output);
+				 pw.flush();
+				 
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 			
-			Socket s=ss.accept();
-			System.out.println("Client accepted");
-			
-			BufferedReader br= new BufferedReader(new InputStreamReader(s.getInputStream()));
-			
-			PrintWriter pw = new PrintWriter(new OutputStreamWriter(s.getOutputStream()));
-			
-			 String num =br.readLine();
-			 String num2=br.readLine();
-			 
-			 int num1=Integer.parseInt(num);
-			 int nm2=Integer.parseInt(num2);
-			 
-			 String output = Integer.toString(max(num1,nm2));
-			 pw.println(output);
-			 pw.flush();
-			 
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
-		
+	
 	}
-
-}
-
