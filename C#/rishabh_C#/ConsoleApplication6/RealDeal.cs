@@ -50,6 +50,50 @@ namespace ConsoleApplication6
 
             }
 
+            int maxsal = employees.Max(x => x.salary);
+            foreach(var a in employees)
+            {
+                if(a.salary == maxsal)
+                {
+                    Console.WriteLine(a.name);
+                }
+                else
+                {
+                    break;
+                }
+            }
+            int average = 0;
+            int c = 0;
+            int sum = 0;
+            foreach(var a in employees)
+            {
+                if (a.department.Equals("Sales"))
+                {
+                    c++;
+                    sum += a.salary;
+                }
+                else
+                {
+                    break;
+                }
+            }
+            average = sum / c;
+            Console.WriteLine("The sum of salaries of the Employees working in the Sales Department is {0}", sum);
+            Console.WriteLine("The Average is {0}", average);
+
+            var q = employees.Where(x => x.designation.Equals("Manager")).ToList();
+            foreach(var b in q)
+            {
+                Console.WriteLine("Managers are");
+                Console.WriteLine("Name = {0}, Age = {1}", b.name, b.age);
+            }
+            var qu = employees.Where(x => x.age > 50 && x.age < 60).ToList();
+            foreach(var w in qu)
+            {
+                Console.WriteLine("Employees having age between 50 and 60");
+                Console.WriteLine(w.name);
+            }
+            Console.ReadKey();
         }
 
     }
