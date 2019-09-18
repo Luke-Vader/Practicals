@@ -12,7 +12,7 @@
     <AssemblyName>ConsoleApplication6</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>ConsoleApplication6.LambdaReverse</StartupObject>
+    <StartupObject>ConsoleApplication6.LinqObject</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -70,6 +70,7 @@
     <Compile Include="DistinctDemo_rishabh.cs" />
     <Compile Include="Lambda.cs" />
     <Compile Include="LambdaReverse.cs" />
+    <Compile Include="LinqObject.cs" />
     <Compile Include="MatrixAddition.cs" />
     <Compile Include="matrixMultiplication_janak.cs" />
     <Compile Include="Multiply_rishabh.cs" />
