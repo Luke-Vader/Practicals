@@ -70,11 +70,3 @@ namespace ConsoleApplication6
     }
 
 }
-
-/*
-Find the most gareeb employee
-Find the name of employees working for IT department.
-Find the name of CEO.
-Find the sum of all the salaries of employee working for sales department.
-Find the average salary of employees working in IT department.
- */
