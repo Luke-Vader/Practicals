@@ -10,3 +10,10 @@ C:\Users\rishabh\Documents\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\x64\
 C:\Users\rishabh\Documents\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\x64\Debug\ConsoleApplication6.pdb
 C:\Users\rishabh\Documents\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ConsoleApplication6.csprojAssemblyReference.cache
 C:\Users\rishabh\Documents\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ConsoleApplication6.csproj.CoreCompileInputs.cache
+C:\Users\rishabh\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\x64\Debug\ConsoleApplication6.exe.config
+C:\Users\rishabh\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\x64\Debug\ConsoleApplication6.exe
+C:\Users\rishabh\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\bin\x64\Debug\ConsoleApplication6.pdb
+C:\Users\rishabh\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ConsoleApplication6.csprojAssemblyReference.cache
+C:\Users\rishabh\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ConsoleApplication6.csproj.CoreCompileInputs.cache
+C:\Users\rishabh\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ConsoleApplication6.exe
+C:\Users\rishabh\Documents\GitHub\Practicals\C#\rishabh_C#\ConsoleApplication6\obj\x64\Debug\ConsoleApplication6.pdb

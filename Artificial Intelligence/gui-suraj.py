@@ -16,7 +16,7 @@ listbox.insert(3,'Suraj')
 
 
 def dialog():
-    box.showinfo("Leader","Your Choice"+listbox.get(listbox.curselection()))
+    box.showinfo("Leader","Your Choice "+listbox.get(listbox.curselection()))
 
 btn=Button(frame,text="Vote",command=dialog)
 lbl.pack()

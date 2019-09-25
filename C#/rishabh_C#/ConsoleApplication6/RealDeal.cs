@@ -30,7 +30,7 @@ namespace ConsoleApplication6
         static void Main(string[] args)
         {
             IList<Employee> employees = new List<Employee>();
-            for (int i = 0; i < 7; ++i)
+            for (int i = 0; i < 2; ++i)
             {
                 Console.WriteLine("Enter the Records for Employee {0}\n", i + 1);
                 Console.Write("\nEmployee Number:");
@@ -49,6 +49,7 @@ namespace ConsoleApplication6
                 employees.Add(employee);
 
             }
+
 
             int maxsal = employees.Max(x => x.salary);
             foreach(var a in employees)

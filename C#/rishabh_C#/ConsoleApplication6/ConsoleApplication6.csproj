@@ -12,7 +12,7 @@
     <AssemblyName>ConsoleApplication6</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>ConsoleApplication6.LinqObject</StartupObject>
+    <StartupObject>HelloWorld.Breakfast</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Add_janak.cs" />
     <Compile Include="BasicLambda_rishabh.cs" />
+    <Compile Include="Breakfast.cs" />
     <Compile Include="Country_rishabh.cs" />
     <Compile Include="DistinctDemo_rishabh.cs" />
     <Compile Include="Lambda.cs" />
@@ -81,6 +82,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="menu.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
