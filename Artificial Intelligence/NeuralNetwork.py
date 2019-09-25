@@ -1,9 +1,9 @@
 import random as r
 
-def summation(weight, inputs):
+def summation(weights, inputs):
     s = 0
     for i in range(len(inputs) - 1):
-        s = s + (weights[i] * inputs[c])
+        s = s + (weights[i] * inputs[i])
     total = s + weights[-1]
     if(total >= 0):
         return 1
@@ -33,7 +33,7 @@ def program():
                 break
             else:
                 print("New Weights")
-                for i in range(len(weights)):
+                for j in range(len(weights)):
                     weights[j] = weights[j] + (classi * inputs[j])
                     print("W", [j]," = ", weights[j])
     Misclassed = True
