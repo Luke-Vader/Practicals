@@ -41,3 +41,6 @@ topLocations = head(topLocations,10)
 
 #We put this in a pie chart now
 pie(topLocations$Count, labels = topLocations$`_id`)
+
+#fora a fancier pie you an always go for 
+pie3D(topLocations$Count, labels = topLocations$`_id`)
