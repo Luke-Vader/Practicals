@@ -34,6 +34,9 @@ data$find('{"Primary Type":"ASSAULT"}') #this will get everything from ASSAULT P
 #this would take all the locations and count the number of crimes occurring in each location 
 data$aggregate('[{"$group":{"_id":"$Location Description", "Count": {"$sum":1}}}]')
 
+#something else we can do is 
+topLocations = data$aggregate(%>%arrange(desc(Count)%>%head(10))
+
 #now we need it in descending order so we use order
 topLocations = locationCrime[order(-locationCrime$Count),]
 
