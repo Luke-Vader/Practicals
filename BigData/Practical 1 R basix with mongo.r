@@ -5,6 +5,7 @@ library(ggmap)
 library(mongolite)
 library(lubridate)
 library(gridExtra)
+library(plotrix)
 
 #the data is take from mongoDB database and the object is also on mongoDB
 #it is being accessed by R from mongoDB
