@@ -28,3 +28,16 @@ data$count()
 #Extract set of data from entire set
 #this is like writing a query for the data present in mongoDB
 data$find('{"Primary Type":"ASSAULT"}') #this will get everything from ASSAULT Primary Type
+
+#top 10 locations of max crime
+#this would take all the locations and count the number of crimes occurring in each location 
+data$aggregate('[{"$group":{"_id":"$Location Description", "Count": {"$sum":1}}}]')
+
+#now we need it in descending order so we use order
+topLocations = locationCrime[order(-locationCrime$Count),]
+
+#then we have our data sorted in descending order of crime but we need only top 10 locations
+topLocations = head(topLocations,10)
+
+#We put this in a pie chart now
+pie(topLocations$Count, labels = topLocations$`_id`)
