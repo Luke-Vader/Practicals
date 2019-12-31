@@ -41,7 +41,7 @@ namespace ConsoleApplication6
     {
         static void Main(string[] s)
         {
-            C c = new F();
+            D c = new F();
             c.Test();
             Console.ReadKey();
         }

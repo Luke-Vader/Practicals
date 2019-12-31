@@ -12,7 +12,7 @@
     <AssemblyName>ConsoleApplication6</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>HelloWorld.Breakfast</StartupObject>
+    <StartupObject>ConsoleApplication6.OROL_rishabh</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
