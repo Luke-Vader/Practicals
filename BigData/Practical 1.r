@@ -11,7 +11,7 @@ library(plotrix)
 #it is being accessed by R from mongoDB
 data=mongo(collection = "crimes", db = "rishabh")
 
-#this shoes hoe many rows of data we have
+#this shows how many rows of data we have
 data$count()
 
 #Identify different attributes
