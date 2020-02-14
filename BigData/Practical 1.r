@@ -29,6 +29,7 @@ data$count()
 #Extract set of data from entire set
 #this is like writing a query for the data present in mongoDB
 data$find('{"Primary Type":"ASSAULT"}') #this will get everything from ASSAULT Primary Type
+data$find(fields = '{"Primary Type" : 1, "Date" : 1}')
 
 #top 10 locations of max crime
 #this would take all the locations and count the number of crimes occurring in each location 
